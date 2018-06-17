@@ -85,6 +85,8 @@ public class ErsteNacht extends Thread {
 
             ersteNachtBuildStatements();
 
+            System.out.println("test");
+
             for (Statement statement : statements) {
                 Rolle rolle = null;
                 if (statement.getClass() == StatementRolle.class) {
